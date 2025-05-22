@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage-marcus
+  description: My first component
+  annotations:
+    backstage.io/source-template: template:default/react-ssr-template
+    terraform/organization: marcus
+    terraform/workspaces: backstage-marcus-dev,backstage-marcus-staging,backstage-marcus-prod
+spec:
+  type: website
+  lifecycle: production
+  system: marcus-portal
+  consumesApis: ['component:backstage-marcus-lib']
