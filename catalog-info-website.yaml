@@ -11,4 +11,5 @@ spec:
   type: website
   lifecycle: production
   system: marcus-portal
+  owner: CNCF
   consumesApis: ['component:backstage-marcus-lib']
