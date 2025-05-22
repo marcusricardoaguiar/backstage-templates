@@ -5,8 +5,8 @@ metadata:
   description: Artist main website
   annotations:
     backstage.io/source-template: template:default/react-ssr-template
-    terraform/organization: marcus
-    terraform/workspaces: workspace-prod,workspace-staging
+    terraform/organization: backstage-marcus
+    terraform/workspaces: backstage-app-prod,backstage-app-staging
 spec:
   type: website
   lifecycle: production
