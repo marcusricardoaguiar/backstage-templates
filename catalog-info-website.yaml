@@ -6,7 +6,7 @@ metadata:
   annotations:
     backstage.io/source-template: template:default/react-ssr-template
     terraform/organization: backstage-marcus
-    terraform/workspaces: backstage-app-prod,backstage-app-staging
+    terraform/workspaces: terraform-gcp,gcp-fortigate
 spec:
   type: website
   lifecycle: production
